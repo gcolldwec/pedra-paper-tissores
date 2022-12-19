@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra papel tijeras lagarto Spock</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body id="body">
+    <header>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-1" id="divLogo">
+                <img id="img" src="/imatges/piedra.jpg" alt="logo">
+            </div>
+            <div class="col-8 title">
+                <h1 id="titol">Piedra, Papel, Tijeras, Lagarto y Spock</h1>
+            </div>
+        </div>  
+    </header>
+    <main>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-12 content">
+                        <p id="texte">Las reglas son muy sencillas, según Sheldon. 
+                            Las tijeras cortan el papel, el papel envuelve la piedra, la piedra aplasta al lagarto, el lagarto envenena a 
+                            Spock, Spock aplasta las tijeras, las tijeras decapitan al lagarto, el lagarto devora el papel,
+                            el papel desaprueba a Spock, Spock desintegra la piedra y, como siempre, la piedra aplasta las tijeras.
+                        </p>
+                    </div>
+                    <div class="col-12 button">
+                        <input type="button" value="Jugar" id="boto">
+                    </div>
+                </div>
+            </div>
+            <div class="col-3"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="row">
+                        <div class="col-12 pedra" id="picJugador">
+                            <img src="/imatges/man.webp" id="jugador" alt="jugador">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2" id="marcadorUsuari">
+                    <div class="row">
+                        <div class="col 12">
+                            <p id="nom">Jugador</p>
+                        </div>
+                        <div class="col-12" id="divMarcadorJugador">
+                            <p id="marcadorJugador"></p>
+                        </div>
+                        <div class="col-12">
+                            <p id="opcioTriada"></p>
+                        </div>
+                        <div class="col-12">
+                            <p id="picTriada"></p>
+                        </div>   
+                    </div>
+                </div>
+                <div class="col-2" id="versus">
+                    <p id="vs">VS</p>
+                </div>
+                <div class="col-3" id="marcadorAdversari">
+                    <div class="row">
+                        <div class="col 12" id="divAdversari">
+                            <p id="nomAdversari">Adversario</p>
+                        </div>
+                        <div class="col-12" id="divMarcadorOponent">
+                            <p id="marcadorOponent"></p>
+                        </div>
+                        <div class="col-12">
+                            <p id="opcioRandom"></p>
+                        </div>
+                        <div class="col-12">
+                            <p id="picRandom"></p>
+                        </div>   
+                    </div>
+                </div>
+                <div class="col-2" id="sombra">
+                    <img src="/imatges/pensant.png" id="adversari" alt="adversari" >
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <p id="resultat"></p>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </main>
+    <p id="opcions"></p>
+    <p id="opcioTriada"></p>
+    <p id="opcioRandom"></p>
+    <p id="opcioJugador"></p>
+    <p id="opcioOponent"></p>
+    <p id="resultat"></p>
+    
+    <script src="script.js"></script>
+</body>
+</html>

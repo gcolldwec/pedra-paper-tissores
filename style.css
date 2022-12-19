@@ -1,0 +1,162 @@
+#body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 252, 252);
+}
+header{
+    height: 140px;
+    background-color: rgb(20, 20, 172);
+}
+.title{
+    height: 140px;
+    display: flex;
+    color: ghostwhite;
+    justify-content: center;
+    align-items: center;
+}
+#texte{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 15px; 
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    border: 4px solid black;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#boto{
+    padding: 25px 25px;
+    border-radius: 60px;
+    border: 2px solid grey;
+}
+#boto:hover{
+    border: 4px solid grey;
+}
+#divLogo{
+    display: flex;
+    align-items: center;
+}
+#img{
+    border-radius: 80px;
+    height: 100px;
+}
+#picPedra{
+    height: 15vh;
+}
+#picPedra:hover{
+    border: 14px solid grey;
+    border-radius: 60px;
+}
+#picPaper{
+    height: 15vh;
+}
+#picPaper:hover{
+    border: 14px solid grey;
+    border-radius: 60px;
+}
+#picTissora{
+    height: 15vh;
+}
+#picTissora:hover{
+    border: 14px solid grey;
+    border-radius: 60px;
+}
+#picLagarto{
+    height: 15vh;
+}
+#picLagarto:hover{
+    border-radius: 60px;
+    border: 14px solid grey;
+}
+#picSpock{
+    height: 15vh;
+}
+#picSpock:hover{
+    border: 14px solid grey;
+    border-radius: 60px;
+}
+#sombra{
+    display: flex;
+    align-items: center;
+}
+#adversari{
+    height: 48vh;
+    width: 30vh;   
+}
+#jugador{
+    height: 48vh;
+    width: 30vh;
+    background-color:rgb(252, 252, 252);
+}
+#marcadorUsuari{
+    display: flex;
+    align-items: center;
+}
+#marcadorAdversari{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#versus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#vs{
+    background-color: antiquewhite;
+    color: grey;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid grey;
+    border-radius: 80px;
+    padding: 15px;
+}
+#nom{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+}
+#nomAdversari{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-right: 45px;
+}
+#divMarcadorJugador{
+    display: flex;
+    justify-content: start;
+}
+#divMarcadorOponent{
+    display: flex;
+    justify-content: start;
+}
+#marcadorJugador{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 65px;
+    margin-left: 60px;
+}
+#marcadorOponent{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 65px;
+    margin-left: 100px;
+}
+#resultat{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#picTriada{
+    text-align: center;
+    margin-right: 45px;
+}
+#picRandom{
+    text-align: center;
+    margin-right: 70px;
+}
